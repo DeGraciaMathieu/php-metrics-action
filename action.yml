@@ -1,6 +1,6 @@
 name: 'PHP Metrics Action'
 description: 'Analyze PHP files and generate metrics'
-author: 'GE'
+author: 'degraciamathieu'
 
 inputs:
   php-version:
