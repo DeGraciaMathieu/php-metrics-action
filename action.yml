@@ -1,0 +1,15 @@
+name: 'PHP Metrics Action'
+description: 'Analyze PHP files and generate metrics'
+author: 'GE'
+
+inputs:
+  php-version:
+    description: 'The PHP version to use'
+    required: true
+  github-token:
+    description: 'GitHub Token for authentication'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'index.js'
